@@ -38,6 +38,14 @@
       </feature>
     </config-file>
 
+    <config-file target="*-Info.plist" parent="LSApplicationQueriesSchemes">
+      <array>
+        <string>epicmychart</string>
+      </array>
+    </config-file>
+
+
+
 <!-- Objective-C Sources -->
 
     <source-file src="src/ios/CULPlugin.m"/>
